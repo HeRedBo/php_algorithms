@@ -3,6 +3,8 @@
 // 归并排序是建立在归并操作上的一种有效的排序算法。
 // 归并排序将待排序的序列分成若干组，保证每组都有序，然后再进行合并排序，最终使整个序列有序。
 // 该算法是采用分治法的一个非常典型的应用。
+### 原理图可看该文章 ： 
+## https://www.cnblogs.com/sunshineliulu/p/8573991.html
 
 // 算法步骤：
 
@@ -30,7 +32,6 @@ function merge_sort(array $lists)
     $lists = merge($left, $right);
     return $lists;
 }
-
 function merge(array $left, array $right)
 {
     $lists = [];
@@ -49,4 +50,14 @@ function merge(array $left, array $right)
     return $lists;
 }
 
+
+###  归并排序 递归方式处理
+
+
+
+
+
+
+
+var_dump(merge_sort([4, 7, 6, 3, 9, 5, 8]));
 

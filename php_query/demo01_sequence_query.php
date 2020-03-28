@@ -20,6 +20,5 @@ function sequenceQuery(array $arr, $item)
 }
 
 # 测试：顺序查找
-
 $arr1 = array(9, 15, 34, 76, 25, 5, 47, 55);
  echo sequenceQuery($arr1, 47);//结果为6
