@@ -23,3 +23,5 @@ function washCard($card_num)
 $card_num = 54;
 print_r(washCard($card_num));
 
+
+
