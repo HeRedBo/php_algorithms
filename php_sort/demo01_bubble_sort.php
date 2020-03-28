@@ -10,7 +10,7 @@ function bubble_sort(&$arr)
 {
     //外层循环控制层数：控制冒泡多少次
     $len = count($arr);
-    for ($i = 0, $len = $len; $i < $len; $i++) {
+    for ($i = 0; $i < $len; $i++) {
 		//内存循环用来比较相邻的两个元素，看谁大，大的交换到后面
         for ($j = 0; $j < $len - 1 - $i; $j++) {
 			//相邻的进行比较
@@ -30,7 +30,7 @@ function bubble_sort(&$arr)
  *
  * @param array $arr
  * @return void
- * @author RddBo
+ * @author RedBo
  */
 function bubbleSort($arr)
 {
