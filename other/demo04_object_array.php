@@ -41,4 +41,8 @@ $t = new ObjectArray;
 foreach ($t as $k => $v) {
     echo $k, ' => ', $v, '<br/>';
 }
+## result
+// id => 1
+// name => php
+// student_count => 50
 
